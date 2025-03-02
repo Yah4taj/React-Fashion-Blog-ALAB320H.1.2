@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left; 
+  
+}
+
+body {
+  background-color: white; /* White background */
+  color: black; /* Black text */
+  font-family: Arial, sans-serif; /* Optional: Set a clean font */
+  margin: 0;
+  padding: 0;
+}
+  .header-title{
+
+    color: red;
+  
+  }  
+
+  body{
+    padding-bottom: 30px;
+  }
+
+  NavBar{
+   color: lightgray;
+  }
+
+  Footer{
+    color:red;
+  }
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+ 
+
+
