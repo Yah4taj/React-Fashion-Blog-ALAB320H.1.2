@@ -1,9 +1,13 @@
-import 'App.css'
 
-const Navbar = () => {
+const NavBar = () => {
     return (
-      <nav>
-        <ul>
+      <nav className='navbar' style= {{color: 'lightgrey'}}>
+        <ul style={{ 
+                  display: 'flex', 
+                  listStyle: 'none', 
+                  padding: 0,
+                  gap: '20px' 
+              }}>
           <li><a href="#women's">Women's</a></li>
           <li><a href="#men's">Men's</a></li>
           <li><a href="#onthestreet">On the Street</a></li>
@@ -15,4 +19,4 @@ const Navbar = () => {
     );
   };
   
-  export default Navbar;
+  export default NavBar;

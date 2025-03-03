@@ -4,12 +4,12 @@
 
 function Header() {
     return(
-        <div>
+        <header className="header">
 
-<h1 className="header-title">Sartre's List</h1>
-<h2>Better-Dressed People</h2>
+     <h1 className="header-title">Sartre's List</h1>
+    <h2>Better-Dressed People</h2>
 
-        </div>
+    </header>    
 
     )
 }
